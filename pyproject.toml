@@ -8,14 +8,12 @@ authors = ["Antonio Ventura <antonio-roberto.ventura@hec.edu>"]
 python = "^3.11"
 streamlit = "^1.24.0"
 pandas = "^1.5.1"
-geopandas = "^0.13.2"
+geopandas = "^0.14.1"
 geoplot = "^0.5.1"
 mapclassify = "^2.5.0"
 numpy = "^1.24.3"
 matplotlib = "^3.7.1"
 openpyxl = "^3.1.2"
-fiona = ">=1.8.20,<2.0"   # Add Fiona explicitly
-
 
 [tool.poetry.dev-dependencies]
 
