@@ -14,6 +14,8 @@ mapclassify = "^2.5.0"
 numpy = "^1.24.3"
 matplotlib = "^3.7.1"
 openpyxl = "^3.1.2"
+fiona = ">=1.8.20,<2.0"   # Add Fiona explicitly
+
 
 [tool.poetry.dev-dependencies]
 
