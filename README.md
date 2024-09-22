@@ -25,7 +25,7 @@ This repository contains Rome houses prices distribution among zones ("rioni"). 
 
 2. Build the Docker image:
     ```bash
-    docker build -t streamlit-app .
+    docker build -t map_viz .
     ```
 
 ## Usage
@@ -34,7 +34,7 @@ This repository contains Rome houses prices distribution among zones ("rioni"). 
 
 1. Run the Streamlit application using Docker:
     ```bash
-    docker run -p 8501:8501 streamlit-app
+    docker run -p 8501:8501 map_viz
     ```
 
 2. Open your web browser and go to:
@@ -47,7 +47,7 @@ This repository contains Rome houses prices distribution among zones ("rioni"). 
 To stop the application, press `Ctrl + C` in the terminal where the app is running or stop the Docker container using the following command:
 
 ```bash
-docker stop $(docker ps -q --filter ancestor=streamlit-app)
+docker stop $(docker ps -q --filter ancestor=map_viz)
  ```
 
 ## License
