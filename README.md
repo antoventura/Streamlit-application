@@ -19,7 +19,7 @@ This repository contains Rome houses prices distribution among zones ("rioni"). 
 
 1. Clone this repository:
     ```bash
-    git clone https://github.com/your-username/your-repo-name.git
+    git clone https://github.com/antoventura/Streamlit-application
     cd your-repo-name
     ```
 
@@ -48,3 +48,9 @@ To stop the application, press `Ctrl + C` in the terminal where the app is runni
 
 ```bash
 docker stop $(docker ps -q --filter ancestor=streamlit-app)
+ ```
+
+## License
+
+This project is licensed under the MIT License 
+
