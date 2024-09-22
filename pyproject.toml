@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "rome-house-prices"
+version = "0.1.0"
+description = "A Streamlit app for visualizing house prices in Rome"
+authors = ["Antonio Ventura <antonio-roberto.ventura@hec.edu>"]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+streamlit = "^1.24.0"
+pandas = "^1.5.1"
+geopandas = "^0.13.2"
+geoplot = "^0.5.1"
+mapclassify = "^2.5.0"
+numpy = "^1.24.3"
+matplotlib = "^3.7.1"
+openpyxl = "^3.1.2"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
