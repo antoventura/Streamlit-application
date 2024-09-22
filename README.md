@@ -20,7 +20,7 @@ This repository contains Rome houses prices distribution among zones ("rioni"). 
 1. Clone this repository:
     ```bash
     git clone https://github.com/antoventura/Streamlit-application
-    cd your-repo-name
+    cd Streamlit-application
     ```
 
 2. Build the Docker image:
